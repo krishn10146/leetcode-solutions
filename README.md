@@ -42,8 +42,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/krishn10146/leetcode-solutions/tree/master/0031-next-permutation) |
 | [0075-sort-colors](https://github.com/krishn10146/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/krishn10146/leetcode-solutions/tree/master/0088-merge-sorted-array) |
+| [0344-reverse-string](https://github.com/krishn10146/leetcode-solutions/tree/master/0344-reverse-string) |
 ## Greedy
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/krishn10146/leetcode-solutions/tree/master/0011-container-with-most-water) |
+## String
+|  |
+| ------- |
+| [0344-reverse-string](https://github.com/krishn10146/leetcode-solutions/tree/master/0344-reverse-string) |
 <!---LeetCode Topics End-->
