@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/krishn10146/leetcode-solutions/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/krishn10146/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0169-majority-element](https://github.com/krishn10146/leetcode-solutions/tree/master/0169-majority-element) |
+| [0852-peak-index-in-a-mountain-array](https://github.com/krishn10146/leetcode-solutions/tree/master/0852-peak-index-in-a-mountain-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -75,4 +76,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0567-permutation-in-string](https://github.com/krishn10146/leetcode-solutions/tree/master/0567-permutation-in-string) |
+## Binary Search
+|  |
+| ------- |
+| [0852-peak-index-in-a-mountain-array](https://github.com/krishn10146/leetcode-solutions/tree/master/0852-peak-index-in-a-mountain-array) |
 <!---LeetCode Topics End-->
