@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/krishn10146/leetcode-solutions/tree/master/0007-reverse-integer) |
 | [0204-count-primes](https://github.com/krishn10146/leetcode-solutions/tree/master/0204-count-primes) |
 ## Enumeration
 |  |
