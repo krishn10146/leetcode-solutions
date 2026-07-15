@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/krishn10146/leetcode-solutions/tree/master/0204-count-primes) |
 | [0540-single-element-in-a-sorted-array](https://github.com/krishn10146/leetcode-solutions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/krishn10146/leetcode-solutions/tree/master/0852-peak-index-in-a-mountain-array) |
+| [1572-matrix-diagonal-sum](https://github.com/krishn10146/leetcode-solutions/tree/master/1572-matrix-diagonal-sum) |
 ## Hash Table
 |  |
 | ------- |
@@ -99,4 +100,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/krishn10146/leetcode-solutions/tree/master/0204-count-primes) |
+## Matrix
+|  |
+| ------- |
+| [1572-matrix-diagonal-sum](https://github.com/krishn10146/leetcode-solutions/tree/master/1572-matrix-diagonal-sum) |
 <!---LeetCode Topics End-->
