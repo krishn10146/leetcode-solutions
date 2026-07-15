@@ -5,12 +5,9 @@ public:
         int col = matrix[0].size();
         int sum = 0;
         for(int i = 0; i < row; i++){
-            for (int j = 0; j < col; j++){
-                if(i == j){                 // calculates primary diagonal
-                    sum += matrix[i][j]; 
-                }else if(j == row -1-i){    // calculates secondary diagonal
-                    sum += matrix[i][j];
-                }
+            sum += matrix[i][i];        // adds element at priority diagonal with same indices (1,1) (2,2)
+            if(i != row-i-1){           // this ensures that no common element is added twice in both primary and seondary diagonal
+                sum += matrix[i][row-i-1];
             }
         }
         return sum;
