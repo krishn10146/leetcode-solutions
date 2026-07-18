@@ -22,6 +22,7 @@ public:
                     lb++,rb--;                              // this moves the left and right boundary to find other combination of values whose sum with [i] equals the target
 
                     while(lb < rb  && nums[lb] == nums[lb-1]) lb++;     // this increments j if the value of j is similar to the last to reduce duplicacy
+                    while(lb < rb  && nums[rb] == nums[rb+1]) rb--;
                 }
             }
         }        
