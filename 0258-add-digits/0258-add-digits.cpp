@@ -9,10 +9,7 @@ public:
         int digit = num%10;
         num  = num/10;
         num = digit + num;
-        if(num <10)
-        {
-            break;
-        }
+        
        }
         return num;
     }
