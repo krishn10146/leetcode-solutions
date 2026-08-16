@@ -2,19 +2,29 @@ class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
         int n = nums.size();
-        vector<int> ans(n,1);           // vector which stores the new product array        
+        // Initialize answer array with 1s so we can safely multiply into it
+        vector<int> ans(n, 1);           
+        
+        // --- PASS 1: Calculate Prefix Products ---
+        // prefix stores the product of all elements to the left of the current index i
         int prefix = 1;                 
-
-        for(int i = 1; i<n; i++){
-            prefix *= nums[i-1];        // calculate the prefix for each iteration of the loop 
-            ans[i] *= prefix;           // this prefix gets stored in the ans vector
+        for(int i = 1; i < n; i++){
+            // Accumulate product of the previous element
+            prefix *= nums[i-1];        
+            // Store the running product of everything before index i
+            ans[i] *= prefix;           
         }
 
+        // --- PASS 2: Calculate Suffix Products ---
+        // suffix stores the product of all elements to the right of the current index i
         int suffix = 1;
-        for(int i = n-2; i >=0; i--){   
-            suffix *= nums[i+1];        // calculate the suffix for each iteration of the loop
-            ans[i] *= suffix;           // this suffix gets stored in the ans vector (both suffix and prefix combine to make the ans of the product array)
+        for(int i = n-2; i >= 0; i--){   
+            // Accumulate product of the next element
+            suffix *= nums[i+1];        
+            // Combine prefix product (already in ans[i]) with the new suffix product
+            ans[i] *= suffix;           
         }
+        
         return ans;
     }
 };
