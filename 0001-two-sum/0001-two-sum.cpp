@@ -8,7 +8,8 @@ public:
         for(int i = 0; i < n; i++){
                 int first = nums[i];            // first element of the two whose sum = target
                 int second = target - first;    // can calculate the second easily 
-                if(m.find(second) != m.end()){  //if the second value is found in the map then we place the iteration of first and second in the ans variable 
+                if(m.find(second) != m.end()){  // this means that second is found in the map
+                                                //if the second value is found in the map then we place the iteration of first and second in the ans variable
                     ans.push_back(i);
                     ans.push_back(m[second]);
                 }
